@@ -1,4 +1,4 @@
-package com.damingho.adminserver;
+package com.damingho.monitorserver;
 
 import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
@@ -8,10 +8,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableAdminServer
 @EnableEurekaClient
-public class AdminServerApplication {
+public class MonitorServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AdminServerApplication.class, args);
+        SpringApplication.run(MonitorServerApplication.class, args);
     }
 
 }

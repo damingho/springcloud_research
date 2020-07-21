@@ -1,4 +1,4 @@
-package com.damingho.adminserver.config;
+package com.damingho.monitorserver.config;
 
 import de.codecentric.boot.admin.server.config.AdminServerProperties;
 import org.springframework.context.annotation.Configuration;
