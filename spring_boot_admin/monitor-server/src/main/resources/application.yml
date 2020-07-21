@@ -3,18 +3,18 @@ spring:
     name: monitor-server
   security:
     user:
-      name: "admin"
-      password: "admin"
+      name: "password"
+      password: "password"
   mail:
     host: smtp.163.com
-    username: damingho@163.com
-    password: SSDQEUVDPQQPRYWG
+    username: emainame@163.com
+    password: # 授权码
   boot:
     admin:
       notify:
         mail:
-          from: damingho@163.com
-          to: jmhu3306@163.com
+          from: fromemail@163.com
+          to: toemail@163.com
 server:
   port: 8769
 eureka:
